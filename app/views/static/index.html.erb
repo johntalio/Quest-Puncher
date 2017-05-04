@@ -1,1 +1,17 @@
-<h1>Hello, world</h1>
+<div class='main-container'>
+  <span class='main-title'><h1><%= link_to "Quest Puncher", root_path %></h1></span>
+  <div class='tab'>
+
+    <button class='tablinks' onClick="openTab(event, 'Media')">Media</button>
+    <button class='tablinks' onClick="openTab(event, 'Booking')">Booking</button>
+
+      <div id='Media' class='tabcontent'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1X6OAucemtE" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div id='Booking' class='tabcontent'>
+        <%= render 'booking' %>
+      </div>
+
+  </div>
+</div>
