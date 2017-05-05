@@ -13,12 +13,13 @@
 }
 
 .tab button {
-    background-color: inherit;
-    float: center;
-    border: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+  font-size: 1em;
+  background-color: inherit;
+  float: center;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
 }
 
 .tab button:hover {
@@ -30,8 +31,8 @@
 }
 
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
