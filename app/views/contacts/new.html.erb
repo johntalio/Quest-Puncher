@@ -1,0 +1,18 @@
+<div align='center'>
+  <h2>Contact Quest Puncher</h2>
+
+  <%= simple_form_for @contact, :html => { :class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, label: "Your Name:", :required => true %></br>
+    <%= f.input :email, label: "Your Email:", :required => true %></br>
+    <%= f.input :message, label: "Your Message:", :as => :text, :required => true %></br>
+    <div class="hidden">
+      <%= f.input :nickname, :hint => ' Leave this field blank!' %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send Your Message' %>
+    </div>
+  <% end %>
+
+</br><%= link_to "Back to Home", root_path %>
+</div>
