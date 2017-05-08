@@ -1,7 +1,7 @@
 function Instafeed() {
   get: 'user',
   userId: 260898138,
-  target: 'Instafeed',
+  target: 'instafeed',
   sortBy: 'most-recent',
   links: true,
   limit: 10,
