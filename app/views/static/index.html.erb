@@ -8,6 +8,8 @@
       <div id='Media' class='tabcontent'>
         <h2>Youtube</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1X6OAucemtE" frameborder="0" allowfullscreen></iframe>
+        <%= YoutubeHelper.call["items"][0]["contentDetails"]["relatedPlaylists"]["likes"] %>
+        <%= YoutubeHelper.liked %>
         <div id='instafeed'></div>
         <div>
           <h2>Instagram</h2>
