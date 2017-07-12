@@ -7,9 +7,8 @@ end
 
 gem 'httparty'
 gem 'google-api-client'
-gem 'instagram'
-gem 'instafeed'
-gem 'oembed'
+gem 'better_errors'
+gem 'bootstrap-sass'
 gem 'mail_form'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
