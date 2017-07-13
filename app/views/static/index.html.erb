@@ -1,18 +1,15 @@
 <div class='main-page'>
-  <span class='main-title'><h1><%= link_to "Quest Puncher", root_path %></h1></span>
+  <span class='main-title'><h1>Quest Puncher</h1></span>
   <div class='tab'>
-
     <button class='tablinks' onClick="openTab(event, 'Media')">Media</button>
     <button class='tablinks' onClick="openTab(event, 'Booking')">Booking</button>
 
-      <div id='Media' class='tabcontent'>
-        <div></div>
-        </div>
-      </div>
+    <div id='Media' class='tabcontent'>
+      <div></div>
+    </div>
+  </div>
 
-      <div id='Booking' class='tabcontent'>
-        <%= link_to "Send Quest Puncher a Message!", contacts_path %>
-      </div>
-
+  <div id='Booking' class='tabcontent'>
+    <%= link_to "Send Quest Puncher a Message!", contacts_path %>
   </div>
 </div>
